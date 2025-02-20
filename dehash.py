@@ -29,8 +29,8 @@ def detect_hash_type(hash_value):
                 # Map the hash name to its hashcat mode
                 if hash_name in HASH_MODES:
                     hash_modes.append(HASH_MODES[hash_name])
-                else:
-                    print(f"⚠️ Hash type '{hash_name}' is not supported or mapped. Skipping...")
+                #else:
+                    #print(f"⚠️ Hash type '{hash_name}' is not supported or mapped. Skipping...")
 
             return hash_modes
         else:
