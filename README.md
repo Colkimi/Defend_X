@@ -1,17 +1,42 @@
-DEFEND_X
+# DEFEND_X
 
-Defend_X is a powerful cybersecurity tool designed for:
+## Defend_X is a powerful cybersecurity tool designed for:
 
-   ✔️ Encryption & Decryption
+   +  Encryption & Decryption
 
-   ✔️ Hash Cracking
+   +  Hash Cracking
 
-   ✔️ Network Scanning
+   +  Network Scanning
 
-   ✔️ Packet Sniffing
+   +  Packet Sniffing
 
+### 🛠️ Requirements
+Before installing, ensure you have the following:
 
-🔐 Encryption & Decryption
+Python 3.x installed (python3 --version)
+
+    "pip (Python package manager) installed (pip --version)"
+
+The following dependencies:
+
+    "Cryptography (for encryption)
+
+    Hashid (for hash identification)
+
+    Hashcat (for hash cracking)
+
+    Nmap (for network scanning)
+
+    Masscan (for high-speed scanning)
+
+    Scapy (for packet sniffing)"
+
+### 📥 Installation
+1. Clone the Repository
+git clone https://github.com/yourusername/Defend_X.git
+cd Defend_X
+
+### 🔐 Encryption & Decryption
 
     ✔️ Generates encryption keys and allows loading existing keys for encryption or decryption.
   
@@ -26,18 +51,18 @@ Defend_X is a powerful cybersecurity tool designed for:
        > RC4
        > Fernet
        
-🔓 Hash Cracking
+### 🔓 Hash Cracking
 
     ✔️ Uses hashid to identify hash types.
     ✔️ Uses Hashcat to crack hashes.
     ✔️ Supports all hash modes available in hash_modes.py.
     
-🌐 Network Scanning
+### 🌐 Network Scanning
 
      ✔️ Integrates Nmap and Masscan for efficient scanning.
      ✔️ Optimized for speed with timeouts to prevent delays.
      
-📡 Packet Sniffing
+### 📡 Packet Sniffing
 
     ✔️ Supports all protocol scanning, including TCP, UDP, and more.
     ✔️ Works with lo (loopback) and eth0 (Ethernet) interfaces.
