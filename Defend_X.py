@@ -38,7 +38,7 @@ def print_welcome_banner():
 
     """
     
-    subtitle = "🚀 Cybersecurity Multi-Tool 🚀"
+    subtitle = "🚀 Scan and Exploit Faster 🚀"
     author = "🔎 By Colkimi 🔎"
 
     print(Fore.CYAN + banner + Style.RESET_ALL)
