@@ -32,10 +32,27 @@ The following dependencies:
     Scapy (for packet sniffing)"
 
 ### 📥 Installation
-1. Clone the Repository
-git clone https://github.com/yourusername/Defend_X.git
-cd Defend_X
+Clone the Repository:
 
+    git clone https://github.com/Colkimi/Defend_X
+    cd Defend_X
+### 🚀 Usage
+#### Make the script executable:
+
+     chmod +x defendx.py
+#### Run Defend_X:
+Method 1: Using Python
+
+    python3 Defend_X.py
+Method 2: Running Directly (Optional)
+To run defendx without python3, move it to /usr/local/bin:
+
+    sudo mv defendx.py /usr/local/bin/defendx
+Now you can execute it with:
+
+    Defend_X
+
+## FEATURES
 ### 🔐 Encryption & Decryption
 
     ✔️ Generates encryption keys and allows loading existing keys for encryption or decryption.
