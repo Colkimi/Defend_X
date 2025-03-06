@@ -647,12 +647,16 @@ def main():
 
         if choice == "1":
             encryption_decryption_menu()
+            #call the encryption function
         elif choice == "2":
             hash_cracking_menu()
+            #call the hash function
         elif choice == "3":
             network_scanning_menu()
+            #call the network scan function
         elif choice == "4":
             packet_sniffing_menu()
+            #call the packet sniffer
         elif choice == "5":
             print("Exiting... 🔚")
             break
