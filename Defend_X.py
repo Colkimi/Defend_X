@@ -630,6 +630,7 @@ def save_captured_packets(file_path):
         print(f"❌ Error saving packets: {e}")
 
 # Main Function
+# Calls all functions
 def main():
     init(autoreset=True)
     print_welcome_banner()
