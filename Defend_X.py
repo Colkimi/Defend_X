@@ -662,7 +662,8 @@ def main():
             break
         else:
             print("❌ Invalid choice! Please try again.")
-
+            
+#execute drafted piece of code
 if __name__ == "__main__":
     main()
 
