@@ -155,6 +155,7 @@ def decrypt_file(file_path, key, method):
 # Function to generate and save keys for asymmetric encryption
 def generate_asymmetric_keys(method):
     try:
+        #RSA encryption
         if method == "RSA":
             key = RSA.generate(2048)
             private_key = key.export_key()
