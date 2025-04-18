@@ -83,3 +83,5 @@ Now you can execute it with:
 
     ✔️ Supports all protocol scanning, including TCP, UDP, and more.
     ✔️ Works with lo (loopback) and eth0 (Ethernet) interfaces.
+
+### Ensure proper usage to get required result
