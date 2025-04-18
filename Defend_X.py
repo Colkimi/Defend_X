@@ -130,6 +130,7 @@ def encrypt_file(file_path, key, method):
             file_data = file.read()
         encrypted_data = encrypt_text(file_data.decode('latin1'), key, method)
         encrypted_file_path = file_path + ".enc"
+        #encrypt and save file
         with open(encrypted_file_path, 'wb') as file:
             file.write(encrypted_data.encode('latin1'))
         print(f"🔐 File encrypted and saved as {encrypted_file_path}")
