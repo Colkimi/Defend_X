@@ -267,7 +267,7 @@ def encryption_decryption_menu():
             except Exception as e:
                 print(f"❌ Error during encryption: {e}")
 
-        elif choice == "2":  # Decrypt Text
+        elif choice == "2": 
             encrypted_text = input("\nEnter the encrypted text: ").strip()
             if not encrypted_text:
                 print("❌ Error: Encrypted text cannot be empty!")
